@@ -25,7 +25,7 @@ with st.expander("**_About This App_**"):
     st.markdown("Developed by **:blue[_Ali Hasnain✨_]**")
     col1, col2 = st.columns(2)
     with col1:
-        img = Image.open("D:\MY ALL DATA\ALI HASNAIN\Robotics ORIC\Streamlit\CV\profile.png")
+        img = Image.open("profile.png")
         st.image(img, width=200)
     with col2:
         # github 
